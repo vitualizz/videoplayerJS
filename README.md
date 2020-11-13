@@ -17,5 +17,19 @@ npm install
 npm start
 ```
 ---
+## Style Code
+Estamos usando *eslint* para mantener el style code
 
-# Espero te gustara el proyecto
+Para ver errores de style o sintaxis.
+```
+npm run lint
+```
+
+
+Para solucionar style o sintaxis de los archivos.
+```
+npm run lint:fix
+```
+---
+
+# Espero puedas sacarle provecho al proyecto

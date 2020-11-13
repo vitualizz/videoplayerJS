@@ -1,4 +1,4 @@
-function AutoPlay(config) {}
+function AutoPlay() {}
 
 AutoPlay.prototype.run = function (player) {
   player.mute()

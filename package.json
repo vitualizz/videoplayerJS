@@ -4,12 +4,16 @@
   "description": "",
   "scripts": {
     "start": "live-server",
+    "lint": "eslint ./",
+    "lint:fix": "eslint ./ --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^7.13.0",
     "live-server": "^1.2.1"
-  }
+  },
+  "dependencies": {}
 }
